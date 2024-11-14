@@ -4,15 +4,23 @@
     <title>Welcome To OnlineStore 2024</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     .card2
     {
         display:flex;
+        justify-content: space-between;
     }
+    .toolbar
+            {
+                display:flex;
+                font-size: 17;
+                font-weight: bold;
+                justify-content: space-between;
+            }
             body
             {
-                font-family: Roboto;
+                font-family: Arial, Helvetica, sans-serif;
             }
             .card-title
             {
@@ -24,66 +32,56 @@
             {
                 text-align: center;
             }
-  .footer1
-            {
-                display: flex;
-                background-color: black;
-                color:white;
-                height: 160px;
-            }
-            .footer1 a:link
-            {
-                color:white;
-            }
 </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <br>
-    <div class="container d-flex">
-        <div>
-            <a href="#">
-              <img src="./img/logo-no-background.png" alt="logo" width="150" height="50">
-            </a>
+    <header>
+        <div class="toolbar">
+            <div>
+    <a href="#"><img src="./img/logo-no-background.png"width="150px"height="70px"></a>
+            </div>
+            <div class="box1">
+                <a href="./index.html">Home</a>
+            </div>
+            
+            <div class="box1">
+                <a href="#card3">Shop</a>
+            </div>
+            <div class="box1">
+                <a href="#">Cart</a>
+            </div>
+            <div class="box1">
+                <a href="./account.html">Account</a>
+            </div>
+            <div class="box1">
+                <a href="./contactus.html">Contact Us</a>
+            </div>
+            <div class="box2">
+                <input>
+                <button>Search</button>
+            </div>
         </div>
-            <div class="navbar d-flex">
-            <ul class="nav"style="font-size:18px;">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Account</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"href="#">Cart</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"href="#">Contact Us</a>
-                  </li>
-              </ul>
-          </div>
-        </div>
+    </header>
     <br>
     <div id="carouselExample" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
               
-              <img class="w-100 d-block" src="./img/SL-100321-45940-21.jpg" alt="First slide"style="height:300px;">
+              <img class="img-fluid" src="./img/SL-100321-45940-21.jpg" alt="First slide"height="300px"width="100%">
             
             </div>
             <div class="carousel-item">
               
-              <img class="w-100 d-block" src="./img/sl_051121_42790_98.jpg" alt="Second slide"style="height:300px;">
+              <img class="img-fluid" src="./img/sl_051121_42790_98.jpg" alt="Second slide"height="300px"width="100%">
               
             </div>
             <div class="carousel-item">
               
               
-              <img class="w-100 d-block" src="./img/purchasing-shop-buying-selling-teade.jpg" alt="Third slide"style="height:300px;">
+              <img class="img-fluid" src="./img/purchasing-shop-buying-selling-teade.jpg" alt="Third slide"height="300px"width="100%">
               
             </div>
           </div>
@@ -96,9 +94,9 @@
         </div>
         <br>
         <br>
-    <div><h1 class="h1">New Arrived</h1></div>
-    <div class="container-fluid card2">
-        <div class="card-md bg-light border-1">
+    <div><h1>New Arrived</h1></div>
+    <div class="card2">
+        <div class="card bg-light border-1">
             
             <div class="card-body">
                 <div class="card-title"style="margin-left:20px;">Symbol Premium Mens Regular Fit Cotton Formal Shirt</div>
@@ -108,7 +106,7 @@
                 <div style="margin-left:61px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
             </div>
         </div>
-        <div class="card-md bg-light"style="margin-left:10px;">
+        <div class="card bg-light"style="margin-left:10px;">
             
             <div class="card-body">
                 <div class="card-title"style="margin-left:20px;">FILO HEVIS Filohevis Mens Solid Regular Fit Shirt</div>
@@ -118,7 +116,7 @@
                 <div style="margin-left:61px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
             </div>
         </div>
-        <div class="card-md bg-light"style="margin-left:10px;">
+        <div class="card bg-light"style="margin-left:10px;">
             
             <div class="card-body">
                 <div class="card-title"style="margin-left:20px;">CB-COLEBROOK Mens Casual Button Down Shirt</div>
@@ -128,7 +126,7 @@
                 <div style="margin-left:97px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
             </div>
         </div>
-        <div class="card-md bg-light"style="margin-left:10px;">
+        <div class="card bg-light"style="margin-left:10px;">
             
             <div class="card-body">
                 <div class="card-title"style="margin-left:20px;">Majestic Man Mens Slim Fit Shirt</div>
@@ -138,7 +136,7 @@
                 <div style="margin-left:20px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
             </div>
         </div>
-        <div class="card-md bg-light"style="margin-left:10px;">
+        <div class="card bg-light"style="margin-left:10px;">
             
             <div class="card-body">
                 <div class="card-title"style="margin-left:20px;">ACCOX Mens Cotton Linen Half Sleeve Shirt</div>
@@ -151,9 +149,9 @@
       </div>
       <br>
       <br>
-<div><h1 class="h1">Most Popular</h1></div>
-<div class="container-fluid card2">
-    <div class="card-md bg-light border-1">
+<div><h1>Most Popular</h1></div>
+<div class="card2">
+    <div class="card bg-light border-1">
         
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">Symbol Premium Mens Regular Fit Cotton Formal Shirt</div>
@@ -163,7 +161,7 @@
             <div style="margin-left:61px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light"style="margin-left:10px;">
+    <div class="card bg-light"style="margin-left:10px;">
         
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">FILO HEVIS Filohevis Mens Solid Regular Fit Shirt</div>
@@ -173,7 +171,7 @@
             <div style="margin-left:61px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light"style="margin-left:10px;">
+    <div class="card bg-light"style="margin-left:10px;">
         
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">CB-COLEBROOK Mens Casual Button Down Shirt</div>
@@ -183,7 +181,7 @@
             <div style="margin-left:97px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light"style="margin-left:10px;">
+    <div class="card bg-light"style="margin-left:10px;">
         
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">Majestic Man Mens Slim Fit Shirt</div>
@@ -193,7 +191,7 @@
             <div style="margin-left:20px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light"style="margin-left:10px;">
+    <div class="card bg-light"style="margin-left:10px;">
         
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">ACCOX Mens Cotton Linen Half Sleeve Shirt</div>
@@ -206,9 +204,9 @@
   </div>
   <br>
   <br>
-<div><h1 class="h1">All Products</h1></div>
-<div class="container-fluid card2">
-    <div class="card-md bg-light">
+<div id="card3"><h1>All Products</h1></div>
+<div class="card2">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title">White Zippered Jacket</div>
@@ -217,7 +215,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title">White Zippered Jacket</div>
@@ -226,7 +224,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title">White Zippered Jacket</div>
@@ -235,7 +233,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -244,7 +242,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -255,8 +253,8 @@
     </div>
 </div>
 <br>
-<div class="container-fluid card2">
-    <div class="card-md bg-light">
+<div class="card2">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -265,7 +263,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -274,7 +272,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -283,7 +281,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -292,7 +290,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -304,7 +302,7 @@
 </div>
 <br>
 <div class="card2">
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -313,7 +311,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -322,7 +320,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -331,7 +329,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -340,7 +338,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -351,8 +349,8 @@
     </div>
 </div>
 <br>
-<div class="container-fluid card2 bg-light">
-    <div class="card-md bg-light">
+<div class="card2 bg-light">
+    <div class="card">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -361,7 +359,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -370,7 +368,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -379,7 +377,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title">White Zippered Jacket</div>
@@ -388,7 +386,7 @@
             <div style="margin-left:36px;margin-top: 10px;"><button class="btn btn-primary">ADD TO CART</button></div>
         </div>
     </div>
-    <div class="card-md bg-light">
+    <div class="card bg-light">
             
         <div class="card-body">
             <div class="card-title"style="margin-left:20px;">White Zippered Jacket</div>
@@ -400,47 +398,7 @@
     
 </div>
 <br>
-    <br>
-    <br>
-<footer>
-  <div class="footer1">
-    <div style="margin-left:80px;">
-    <div><a href="#">Home</a>
-</div>
-<div><a href="#">
-    Shop</a></div>
-    <div>
-        <a href="#">Account</a>
-    </div>
-    <div>
-<a href="#">Cart</a>
-    </div>
-    </div>
-    <div style="margin-left:200px;">
-        <div><a href="#">Home</a>
-    </div>
-    <div>
-        <a href="#">Shop</a></div>
-        <div>
-            <a href="#">Account</a>
-        </div>
-        <div>
-           <a href="#"> Cart</a>
-        </div>
-        </div>
-        <div style="margin-left:150px;">
-    <div><a href="#">Contact Us</a>
-</div>
-
-    </div>
-    <div style="margin-left: 300px;">
-        <form>
-        <input type="search">
-        <button>Search</button>
-        </form>
-    </div>
-    </div>
-  &copy 2024 mystore2024.com</footer>
+<footer>&copy 2024 mystore2024.com</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

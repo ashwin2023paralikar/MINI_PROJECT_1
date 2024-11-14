@@ -17,6 +17,20 @@
             {
                 color:white;
             }
+            .form1
+            {
+                width: 400px;
+                height: 380px;
+                
+            }
+            form{
+                font-size: 17px;
+            }
+            .form2
+            {
+                height: 500px;
+                width: 300px;
+            }
 </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -49,18 +63,35 @@
                 </ul>
             </div>
           </div>
-        <div><img class="img-fluid"width="100%" height="auto" src="./img/SL-100321-45940-21.jpg" alt="First slide"style="height:300px;"></div>
+        <div><img src="./img/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera.jpg"class="img-fluid"width="100%"height="auto"></div>
         <br>
-        <div class="d-block font-weight-bold ml-5">
-          <h5>Address</h5>
-        <h2>MyStore 2024</h2>
-        <p>Website: <a href="#">www.mystore2024.com</a></p>
-        <p>Email ID: support@mystore2024.com</p>
-        <p>Phone: +1 (555)987-6543</p>
+        <div class="d-flex">
+        <div class="bg-secondary form1 float-left border"style="margin-left:200px">
+            <form class="p-4 form-group">
+                <h2 class="h2">Login</h2><br>
+                <label class="font-weight-bold">Login ID</label>&nbsp;<input type="text"class="form-control"placeholder="Enter User ID"required><br>
+                <label class="font-weight-bold">Password</label>&nbsp;<input type="password"class="form-control"placeholder="Enter Password"required>
+                <br>
+                <input type="submit"class="btn btn-lg btn-danger">&nbsp;&nbsp;<input type="reset"class="btn btn-lg btn-danger">
+            </form>
+
         </div>
-      </div>
-      <br>
-      <br>
+        
+        <div class="bg-secondary form2 float-right border"style="margin-left:300px">
+            <form class="p-4 form-group">
+                <h2 class="h2">Register</h2><br>
+                <label class="font-weight-bold">Login ID</label>&nbsp;<input type="text"class="form-control"placeholder="Enter User ID"required><br>
+                <label class="font-weight-bold">Password</label>&nbsp;<input type="password"class="form-control"placeholder="Enter Password"required>
+                <br>
+                <label class="font-weight-bold">Email</label>&nbsp;<input type="email"class="form-control"placeholder="Enter Email ID"required><br>
+                <input type="submit"class="btn btn-lg btn-danger">&nbsp;&nbsp;<input type="reset"class="btn btn-lg btn-danger">
+            </form>
+
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
       <footer>
         <div class="footer1">
         <div style="margin-left:80px;">
